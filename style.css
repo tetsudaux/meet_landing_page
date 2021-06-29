@@ -31,6 +31,7 @@ body {
 .hero-container {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 .pictures-container-left {
     order: 0;
@@ -147,7 +148,8 @@ main {
 footer {
     display: flex;
     align-items: center;
-    width: 100vw;
+    justify-content: center;
+    width: 100%;
     height: 200px;
     margin-top: 50px;
     background-color: var(--meet-purple);
@@ -162,7 +164,7 @@ footer {
 .footer-hero {
     display: flex;
     align-items: center;
-    justify-content: center;
+    
     overflow: hidden;
 }
 .footer-hero > * {
